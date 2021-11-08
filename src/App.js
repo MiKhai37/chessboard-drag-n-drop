@@ -1,11 +1,12 @@
 import React from "react";
+import Board from "./components/Board";
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      React
+      <Board knightPos={[5, 6]}/>
     </div>
   );
-}
+};
 
 export default App;
